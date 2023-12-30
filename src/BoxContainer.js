@@ -7,7 +7,7 @@ const BoxContainer = () => {
         if(state==="five-pointed-star"){
             setState("five-pointed-star-orange")
         }
-        else{
+        else if(state!=="five-pointed-star"){
             setState("five-pointed-star")
         }
     }
