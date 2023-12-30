@@ -13,7 +13,7 @@ const BoxContainer = () => {
     }
     useEffect(()=>{setInterval(() => {
         generateStar()
-     }, 800)},[]) 
+     }, 1000)},[]) 
  
   return (
     <div style={{width:"100%",height:"100vh",flexDirection:"column",flexWrap:"wrap" ,display:"flex",alignItems:"center",justifyContent:'center'}}>
